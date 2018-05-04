@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,22 @@
   "bugs": {
     "url": "https://github.com/JeremiAnastaziak/react_ssr/issues"
   },
-  "homepage": "https://github.com/JeremiAnastaziak/react_ssr#readme"
+  "homepage": "https://github.com/JeremiAnastaziak/react_ssr#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "express": "^4.16.3",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "webpack": "^4.7.0",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.1.2"
+  }
 }
