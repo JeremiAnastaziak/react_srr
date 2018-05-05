@@ -23,6 +23,4 @@ app.get('*', async (req, res, next) => {
   res.send(`<!doctype html>${html}`);
 });
 
-
-
 app.listen(3000, () => console.log('Listening on localhost:3000'));
